@@ -1,0 +1,10 @@
+git config --global user.email 3574843846@qq.com
+git config --global user.name lwme
+
+git init
+git remote add origin https://github.com/lw112del/lomi
+git branch -M main 
+echo "Hello World" > README.md
+
+git add .
+git commit -m "first commit"
